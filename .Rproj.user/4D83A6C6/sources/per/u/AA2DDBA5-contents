@@ -1,0 +1,17 @@
+install.packages("languageserver")
+
+install.packages(
+  pkgs="bibliometrix",
+  lib="D:/OneDrive/Profile/Tobias Barreto/Documentos/Diretorio - R/library",
+  dependencies = TRUE)
+
+library("bibliometrix")
+biblioshiny()
+
+install.packages("httpgd")
+
+install.packages(
+  pkgs="httpgd",
+  repos="https://cran.rstudio.com",
+  lib="D:/OneDrive/Profile/Tobias Barreto/Documentos/Diretorio - R/library",
+  dependencies = TRUE)
